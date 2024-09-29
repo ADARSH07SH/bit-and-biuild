@@ -217,3 +217,6 @@ app.get("/styling", async (req, res) => {
     res.status(500).send("Server Error");
   }
 });
+app.get("/ecoshop", async (req, res) => {
+  res.render("files/ecoshop");
+});
